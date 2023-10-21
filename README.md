@@ -1,5 +1,7 @@
 # Pyggseqlogo
-Python version of [ggseqlogo](https://github.com/omarwagih/ggseqlogo). Based on [plotnine](https://pypi.org/project/plotnine/) (Python version of ggplot2). A derivative of [plotnineSeqSuite](https://pypi.org/project/plotnineseqsuite/).
+Python version of [ggseqlogo](https://github.com/omarwagih/ggseqlogo). Based on [plotnine](https://github.com/has2k1/plotnine/) (Python version of ggplot2). A derivative of [plotnineSeqSuite](https://github.com/caotianze/plotnineseqsuite/).
+## Cite this work
+Cao, T., Li, Q., Huang, Y. et al. plotnineSeqSuite: a Python package for visualizing sequence data using ggplot2 style. BMC Genomics 24, 585 (2023). https://doi.org/10.1186/s12864-023-09677-8
 ## Installation
 `pip install pyggseqlogo`
 ## Getting Started
@@ -24,3 +26,5 @@ facet_wrap
 ggseqlogo(seqs_dna, ncol=4)
 ```
 ![https://caotianze.github.io/pyggseqlogo/started_3.png](https://caotianze.github.io/pyggseqlogo/started_3.png)
+## Where to go next
+If you want to draw more complex sequence logos or other sequence-related diagrams, we recommend visiting the [plotnineSeqSuite homepage](https://github.com/caotianze/plotnineseqsuite/) for details.
