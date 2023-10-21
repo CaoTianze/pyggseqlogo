@@ -23,7 +23,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     packages=['pyggseqlogo'],
-    python_requires=">=3.10",
+    python_requires=">=3.11",
     install_requires=['plotnineseqsuite==1.0.0'],
     license="MIT",
     keywords=['ggplot2', 'plotnine', 'ggseqlogo', 'Sequence logo'],
