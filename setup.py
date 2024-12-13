@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="pyggseqlogo",
-    version="1.1.1",
+    version="1.1.2",
     author="Cao Tianze",
     author_email="hnrcao@qq.com",
     description="Python version of ggseqlogo. Based on plotnine (Python version of ggplot2). A derivative of plotnineSeqSuite.",
@@ -24,7 +24,7 @@ setuptools.setup(
     ],
     packages=['pyggseqlogo'],
     python_requires=">=3.11",
-    install_requires=['plotnineseqsuite==1.1.2'],
+    install_requires=['plotnineseqsuite==1.1.3'],
     license="MIT",
     keywords=['ggplot2', 'plotnine', 'ggseqlogo', 'Sequence logo'],
     package_data={
